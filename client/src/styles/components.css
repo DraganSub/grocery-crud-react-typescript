@@ -1,0 +1,143 @@
+.customized-error-field-message{
+  color:red;
+  width:80%;
+  margin: auto;
+
+}
+
+.flex-container{
+  display: flex;
+  justify-content: center;
+  height: auto;
+  padding: 20px;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+}
+.flex-container > h1{
+  text-align: center;
+  height: fit-content;
+  text-transform: uppercase;
+  font-weight: 500;
+
+}
+
+.form--btn{
+  width: fit-content;
+  padding: 7px;
+  background-color: transparent;
+  border-radius: 6px;
+  border: 1px solid rgb(177, 177, 177);
+  transition: 0.5s;
+}
+
+.form--btn:hover{
+  border: 1px solid rgb(104, 104, 248);
+  background-color: rgb(50, 50, 179);
+  color: white;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.flex-right{
+  display: flex;
+  width: 80%;
+  margin: auto;
+  justify-content: right;
+}
+
+.success-msg{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  position: absolute;
+  background-color: rgb(25, 207, 8);
+  height: 6rem;
+  width: 40%;
+  text-align: center;
+  padding: 5px;
+  border-radius: 5px;
+  z-index: 100;
+  color: white;
+}
+
+.success-msg > p{
+  padding: 5px;
+  color: white;
+}
+
+.success-msg > button{
+  width: fit-content;
+  height: fit-content;
+  padding: 4px;
+  background-color: transparent;
+  border-radius: 2px;
+  border: 1px solid  white;
+  color: white;
+  font-weight: 500;
+}
+
+.success-msg > button:hover{
+  cursor: pointer;
+}
+
+.grocery-component{
+  display: flex;
+  width: min-content;
+}
+.grocery-list{
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: left;
+  gap: 0.5rem;
+}
+
+.flex-list{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.flex-buttons{
+  display: flex;
+  gap: 10px;
+}
+
+.btn{
+  padding: 5px;
+  color: white;
+  border-radius: 5px;
+  border: 1px solid white;
+}
+
+.btn:hover{
+  cursor: pointer;
+}
+
+.btn--primary{
+  background-color: lightskyblue;
+}
+.btn--delete{
+  background-color: rgb(243, 64, 64);
+}
+
+.edit-active{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.input{
+  background-color: transparent;
+  border-radius: 5px;
+  padding: 7px;
+  border: 1px solid rgb(189, 189, 189);
+  outline: none;
+}
+
+.small-text{
+  font-size: 12px;
+  color:royalblue
+}
